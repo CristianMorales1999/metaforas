@@ -1,0 +1,100 @@
+<html><head>
+        <meta charset="utf-8" />
+        <link crossorigin href="https://fonts.gstatic.com/" rel="preconnect" />
+        <link as="style"
+            href="https://fonts.googleapis.com/css2?display=swap&amp;family=Inter%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+            onload="this.rel='stylesheet'" rel="stylesheet" />
+        <link
+            href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+            rel="stylesheet" />
+        <title>Stitch Design</title>
+        <link href="data:image/x-icon;base64," rel="icon" type="image/x-icon" />
+        <script
+            src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    </head>
+    <body style='font-family: Inter, "Noto Sans", sans-serif;'>
+        <div
+            class="relative flex size-full min-h-screen flex-col bg-slate-50 group/design-root overflow-x-hidden">
+            <div class="layout-container flex h-full grow flex-col">
+                <main class="flex flex-1 justify-center py-8 px-4">
+                    <div
+                        class="layout-content-container flex flex-col items-center w-full max-w-md">
+                        <h1
+                            class="text-slate-900 text-3xl font-bold leading-tight mb-12 text-center">Gestión
+                            de Horarios Médicos</h1>
+                        <div
+                            class="grid grid-cols-2 sm:grid-cols-3 gap-6 w-full">
+                            <div
+                                class="flex flex-col items-center justify-center p-6 bg-white rounded-xl shadow-lg border border-slate-200 aspect-square hover:shadow-xl transition-shadow">
+                                <span
+                                    class="material-icons-outlined text-5xl text-blue-600 mb-3">calendar_today</span>
+                                <p
+                                    class="text-slate-700 text-base font-medium text-center">Horarios</p>
+                            </div>
+                            <div
+                                class="flex flex-col items-center justify-center p-6 bg-white rounded-xl shadow-lg border border-slate-200 aspect-square hover:shadow-xl transition-shadow">
+                                <div class="relative">
+                                    <span
+                                        class="material-icons-outlined text-5xl text-green-600">event_available</span>
+                                    <span
+                                        class="material-icons-outlined absolute -top-1 -right-2 text-2xl text-green-700 bg-white rounded-full p-0.5 shadow-sm">add_circle</span>
+                                </div>
+                                <p
+                                    class="text-slate-700 text-base font-medium text-center mt-3">Agregar
+                                    Horario</p>
+                            </div>
+                            <div
+                                class="flex flex-col items-center justify-center p-6 bg-white rounded-xl shadow-lg border border-slate-200 aspect-square hover:shadow-xl transition-shadow">
+                                <div class="relative">
+                                    <span
+                                        class="material-icons-outlined text-5xl text-yellow-500">event_available</span>
+                                    <span
+                                        class="material-icons-outlined absolute -top-1 -right-2 text-2xl text-yellow-600 bg-white rounded-full p-0.5 shadow-sm">edit</span>
+                                </div>
+                                <p
+                                    class="text-slate-700 text-base font-medium text-center mt-3">Editar
+                                    Horario</p>
+                            </div>
+                            <div
+                                class="flex flex-col items-center justify-center p-6 bg-white rounded-xl shadow-lg border border-slate-200 aspect-square hover:shadow-xl transition-shadow">
+                                <div class="relative">
+                                    <span
+                                        class="material-icons-outlined text-5xl text-red-500">event_busy</span>
+                                    <span
+                                        class="material-icons-outlined absolute -top-1 -right-2 text-2xl text-red-600 bg-white rounded-full p-0.5 shadow-sm">cancel</span>
+                                </div>
+                                <p
+                                    class="text-slate-700 text-base font-medium text-center mt-3">Eliminar
+                                    Horario</p>
+                            </div>
+                            <div
+                                class="flex flex-col items-center justify-center p-6 bg-white rounded-xl shadow-lg border border-slate-200 aspect-square hover:shadow-xl transition-shadow">
+                                <div class="relative">
+                                    <span
+                                        class="material-icons-outlined text-5xl text-sky-500">calendar_month</span>
+                                    <span
+                                        class="material-icons-outlined absolute -top-1 -right-2 text-2xl text-sky-600 bg-white rounded-full p-0.5 shadow-sm">visibility</span>
+                                </div>
+                                <p
+                                    class="text-slate-700 text-base font-medium text-center mt-3">Ver
+                                    Horario</p>
+                            </div>
+                            <div
+                                class="flex flex-col items-center justify-center p-6 bg-white rounded-xl shadow-lg border border-slate-200 aspect-square hover:shadow-xl transition-shadow sm:col-start-auto">
+                                <div class="relative">
+                                    <span
+                                        class="material-icons-outlined text-5xl text-indigo-500">access_time</span>
+                                    <span
+                                        class="material-icons-outlined absolute -top-1 -right-2 text-2xl text-indigo-600 bg-white rounded-full p-0.5 shadow-sm">search</span>
+                                </div>
+                                <p
+                                    class="text-slate-700 text-base font-medium text-center mt-3">Consultar
+                                    Horario</p>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+
+    </body></html>

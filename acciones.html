@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+        <meta charset="utf-8" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <title>Iconos de Acción</title>
+        <script
+            src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet" />
+        <style>
+        .icon-container {
+            width: 140px;
+            height: 140px;
+            background-color: #F9FAFB;
+            border-radius: 1rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+            margin: 0.75rem;
+            transition: all 0.3s ease-in-out;
+        }
+        .icon-container:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 15px 20px -5px rgba(0, 0, 0, 0.1), 0 8px 8px -5px rgba(0, 0, 0, 0.04);
+        }
+        .icon-wrapper {
+            width: 64px;
+            height: 64px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 9999px;
+        }
+        .action-icon {
+            font-size: 48px;
+        }
+        .icon-label {
+            font-size: 1rem;
+            font-weight: 500;
+            color: #374151;
+            margin-top: 0.75rem;
+            text-align: center;
+        }
+        .action-icon-add {
+            color: #16A34A;
+        }
+        .action-icon-delete {
+            color: #DC2626;
+        }
+        .action-icon-edit {
+            color: #D97706;
+        }
+        .action-icon-view {
+            color: #4F46E5;
+        }
+        .action-icon-list {
+            color: #0284C7;
+        }
+        .action-icon-search {
+            color: #7C3AED;
+        }
+         .action-icon-generic {
+            color: #6B7280;
+        }
+    </style>
+    </head>
+    <body
+        class="bg-gray-100 flex flex-col items-center justify-center min-h-screen p-6">
+        <h1 class="text-2xl font-bold text-gray-700 mb-10">Iconos de Acción
+            Comunes</h1>
+        <div class="flex flex-wrap justify-center items-start">
+            <div class="icon-container">
+                <div class="icon-wrapper bg-green-100">
+                    <span
+                        class="material-icons action-icon action-icon-add">add_circle_outline</span>
+                </div>
+                <p class="icon-label">Añadir</p>
+            </div>
+            <div class="icon-container">
+                <div class="icon-wrapper bg-red-100">
+                    <span
+                        class="material-icons action-icon action-icon-delete">remove_circle_outline</span>
+                </div>
+                <p class="icon-label">Eliminar</p>
+            </div>
+            <div class="icon-container">
+                <div class="icon-wrapper bg-yellow-100">
+                    <span
+                        class="material-icons action-icon action-icon-edit">edit</span>
+                </div>
+                <p class="icon-label">Editar</p>
+            </div>
+            <div class="icon-container">
+                <div class="icon-wrapper bg-indigo-100">
+                    <span
+                        class="material-icons action-icon action-icon-view">visibility</span>
+                </div>
+                <p class="icon-label">Ver</p>
+            </div>
+            <div class="icon-container">
+                <div class="icon-wrapper bg-sky-100">
+                    <span
+                        class="material-icons action-icon action-icon-list">list_alt</span>
+                </div>
+                <p class="icon-label">Listar</p>
+            </div>
+            <div class="icon-container">
+                <div class="icon-wrapper bg-purple-100">
+                    <span
+                        class="material-icons action-icon action-icon-search">search</span>
+                </div>
+                <p class="icon-label">Buscar</p>
+            </div>
+            <div class="icon-container">
+                <div class="icon-wrapper bg-gray-200">
+                    <span
+                        class="material-icons action-icon action-icon-generic">settings</span>
+                </div>
+                <p class="icon-label">Configurar</p>
+            </div>
+            <div class="icon-container">
+                <div class="icon-wrapper bg-blue-100">
+                    <span class="material-icons action-icon"
+                        style="color: #2563EB;">print</span>
+                </div>
+                <p class="icon-label">Imprimir</p>
+            </div>
+            <div class="icon-container">
+                <div class="icon-wrapper bg-pink-100">
+                    <span class="material-icons action-icon"
+                        style="color: #DB2777;">share</span>
+                </div>
+                <p class="icon-label">Compartir</p>
+            </div>
+            <div class="icon-container">
+                <div class="icon-wrapper bg-teal-100">
+                    <span class="material-icons action-icon"
+                        style="color: #0D9488;">download</span>
+                </div>
+                <p class="icon-label">Descargar</p>
+            </div>
+        </div>
+
+    </body></html>
