@@ -14,7 +14,8 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet" />
     <title>SaludIntegra - Gestión de Personal</title>
-    <link href="data:image/x-icon;base64," rel="icon" type="image/x-icon" />
+    <!-- <link href="data:image/x-icon;base64," rel="icon" type="image/x-icon" /> -->
+    <link href="ico-secre.ico" rel="icon" type="image/x-icon" />
     <script
       src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <style>
@@ -100,21 +101,25 @@
         <main
           class="px-8 sm:px-16 md:px-24 lg:px-32 xl:px-40 flex flex-1 justify-center py-10 bg-slate-50">
           <div class="layout-content-container flex flex-col w-full max-w-6xl">
+            <!-- Encabezado de la sección -->
             <div
               class="flex flex-wrap justify-between items-center gap-4 pb-6 mb-8 border-b border-gray-300">
               <h2 class="text-gray-800 text-4xl font-bold leading-tight">
-                Gestión de Personal
+                Gestión de Usuarios
               </h2>
               <button
                 class="flex items-center gap-2 px-5 py-2.5 bg-[#1A75FF] text-white rounded-lg shadow-md hover:bg-blue-700 transition-colors text-sm font-medium">
                 <span class="material-icons text-lg">add</span>
-                <span>Nuevo Personal</span>
+                <span>Nuevo Usuario</span>
               </button>
             </div>
+            <!--Fin de encabezado de la sección-->
+
+            <!-- Sección de Iconos de Gestión de Usuarios-->
             <section class="mb-12">
               <h3
                 class="text-gray-700 text-2xl font-semibold leading-tight px-1 pb-4 mb-6">
-                Iconos de Gestión (Grupo)
+                Iconos de Gestión de Usuarios
               </h3>
               <div
                 class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8">
@@ -196,7 +201,7 @@
                     <span class="material-icons text-4xl">group</span>
                     <!-- o 'badge' -->
                     <span
-                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-indigo-500">visibility</span>
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-sky-500">visibility</span>
                   </div>
                   <h4
                     class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
@@ -238,7 +243,7 @@
                   </h4>
                 </a>
                 <!--Fin Modificar Credenciales-->
-                
+
                 <!--Inicio Eliminar Usuarios-->
                 <a
                   class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-red-500 transition-all duration-300 group transform hover:-translate-y-1"
@@ -258,84 +263,2543 @@
 
               </div>
             </section>
-            <section class="mt-12">
+            <!-- Fin de la sección de Iconos de Gestión de Usuarios-->
+
+            <!-- Sección de Iconos de Gestión de Medico -->
+            <section class="mb-12">
               <h3
                 class="text-gray-700 text-2xl font-semibold leading-tight px-1 pb-4 mb-6">
-                Iconos de Gestión (Tarjeta Identificación)
+                Iconos de Gestión de Médicos
               </h3>
               <div
                 class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8">
-                <a
-                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
-                  href="#">
-                  <div
-                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
-                    <span class="material-icons text-4xl">badge</span>
-                    <span
-                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-green-500">add_circle_outline</span>
-                  </div>
-                  <h4
-                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
-                    Agregar Personal
-                  </h4>
-                </a>
 
-                <a
-                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
-                  href="#">
-                  <div
-                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
-                    <span class="material-icons text-4xl">badge</span>
-                    <span
-                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-orange-500">edit_note</span>
-                  </div>
-                  <h4
-                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
-                    Editar Personal
-                  </h4>
-                </a>
-                <a
-                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-red-500 transition-all duration-300 group transform hover:-translate-y-1"
-                  href="#">
-                  <div
-                    class="relative text-red-500 p-4 bg-red-100 rounded-full shadow-sm">
-                    <span class="material-icons text-4xl">badge</span>
-                    <span
-                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-red-600">delete_forever</span>
-                  </div>
-                  <h4
-                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-red-500 transition-colors">
-                    Eliminar Personal
-                  </h4>
-                </a>
+                <!--Inicio Usuarios-->
                 <a
                   class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
                   href="#">
                   <div
                     class="text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
-                    <span class="material-icons text-4xl">badge</span>
+                    <!-- Icono Base NUEVO (SVG) -->
+                    <svg
+                      viewBox="0 0 256 256"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      class="w-9 h-9">
+                      <!-- Asegúrate que esta clase de tamaño sea correcta -->
+                      <path
+                        d="M212,152a12,12,0,1,1-12-12A12,12,0,0,1,212,152Zm-4.55,39.29A48.08,48.08,0,0,1,160,232H136a48.05,48.05,0,0,1-48-48V143.49A64,64,0,0,1,32,80V40A16,16,0,0,1,48,24H64a8,8,0,0,1,0,16H48V80a48,48,0,0,0,48.64,48c26.11-.34,47.36-22.25,47.36-48.83V40H128a8,8,0,0,1,0-16h16a16,16,0,0,1,16,16V79.17c0,32.84-24.53,60.29-56,64.31V184a32,32,0,0,0,32,32h24a32.06,32.06,0,0,0,31.22-25,40,40,0,1,1,16.23.27ZM224,152a24,24,0,1,0-24,24A24,24,0,0,0,224,152Z"></path>
+                    </svg>
                   </div>
                   <h4
                     class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
-                    Personal
+                    Médicos
                   </h4>
                 </a>
+                <!--Fin Usuarios-->
+
+                <!--Inicio Agregar nuevo usuario-->
                 <a
                   class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
                   href="#">
                   <div
                     class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
-                    <span class="material-icons text-4xl">badge</span>
+                    <!-- Icono Base NUEVO (SVG) -->
+                    <svg
+                      viewBox="0 0 256 256"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      class="w-9 h-9">
+                      <!-- Asegúrate que esta clase de tamaño sea correcta -->
+                      <path
+                        d="M212,152a12,12,0,1,1-12-12A12,12,0,0,1,212,152Zm-4.55,39.29A48.08,48.08,0,0,1,160,232H136a48.05,48.05,0,0,1-48-48V143.49A64,64,0,0,1,32,80V40A16,16,0,0,1,48,24H64a8,8,0,0,1,0,16H48V80a48,48,0,0,0,48.64,48c26.11-.34,47.36-22.25,47.36-48.83V40H128a8,8,0,0,1,0-16h16a16,16,0,0,1,16,16V79.17c0,32.84-24.53,60.29-56,64.31V184a32,32,0,0,0,32,32h24a32.06,32.06,0,0,0,31.22-25,40,40,0,1,1,16.23.27ZM224,152a24,24,0,1,0-24,24A24,24,0,0,0,224,152Z"></path>
+                    </svg>
                     <span
-                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-yellow-500">vpn_key</span>
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-green-500">add_circle</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Agregar Medico
+                  </h4>
+                </a>
+                <!--Fin Agregar nuevo usuario-->
+
+                <!-- Inicio Listar (con acción) -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <!-- Icono Base NUEVO (SVG) -->
+                    <svg
+                      viewBox="0 0 256 256"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      class="w-9 h-9">
+                      <!-- Asegúrate que esta clase de tamaño sea correcta -->
+                      <path
+                        d="M212,152a12,12,0,1,1-12-12A12,12,0,0,1,212,152Zm-4.55,39.29A48.08,48.08,0,0,1,160,232H136a48.05,48.05,0,0,1-48-48V143.49A64,64,0,0,1,32,80V40A16,16,0,0,1,48,24H64a8,8,0,0,1,0,16H48V80a48,48,0,0,0,48.64,48c26.11-.34,47.36-22.25,47.36-48.83V40H128a8,8,0,0,1,0-16h16a16,16,0,0,1,16,16V79.17c0,32.84-24.53,60.29-56,64.31V184a32,32,0,0,0,32,32h24a32.06,32.06,0,0,0,31.22-25,40,40,0,1,1,16.23.27ZM224,152a24,24,0,1,0-24,24A24,24,0,0,0,224,152Z"></path>
+                    </svg>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-teal-500">list</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Ver Listado <!-- o un texto más específico -->
+                  </h4>
+                </a>
+                <!-- Fin Listar (con acción) -->
+
+                <!-- Inicio Buscar Usuario -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <!-- Icono Base NUEVO (SVG) -->
+                    <svg
+                      viewBox="0 0 256 256"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      class="w-9 h-9">
+                      <!-- Asegúrate que esta clase de tamaño sea correcta -->
+                      <path
+                        d="M212,152a12,12,0,1,1-12-12A12,12,0,0,1,212,152Zm-4.55,39.29A48.08,48.08,0,0,1,160,232H136a48.05,48.05,0,0,1-48-48V143.49A64,64,0,0,1,32,80V40A16,16,0,0,1,48,24H64a8,8,0,0,1,0,16H48V80a48,48,0,0,0,48.64,48c26.11-.34,47.36-22.25,47.36-48.83V40H128a8,8,0,0,1,0-16h16a16,16,0,0,1,16,16V79.17c0,32.84-24.53,60.29-56,64.31V184a32,32,0,0,0,32,32h24a32.06,32.06,0,0,0,31.22-25,40,40,0,1,1,16.23.27ZM224,152a24,24,0,1,0-24,24A24,24,0,0,0,224,152Z"></path>
+                    </svg>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-purple-500">search</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Buscar Medicos <!-- o 'Buscar Personal' -->
+                  </h4>
+                </a>
+                <!-- Fin Buscar Usuario -->
+
+                <!-- Inicio Ver Usuario -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <svg class="text-blue-600" fill="currentColor" height="32px"
+                      viewBox="0 0 256 256" width="32px"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M212,152a12,12,0,1,1-12-12A12,12,0,0,1,212,152Zm-4.55,39.29A48.08,48.08,0,0,1,160,232H136a48.05,48.05,0,0,1-48-48V143.49A64,64,0,0,1,32,80V40A16,16,0,0,1,48,24H64a8,8,0,0,1,0,16H48V80a48,48,0,0,0,48.64,48c26.11-.34,47.36-22.25,47.36-48.83V40H128a8,8,0,0,1,0-16h16a16,16,0,0,1,16,16V79.17c0,32.84-24.53,60.29-56,64.31V184a32,32,0,0,0,32,32h24a32.06,32.06,0,0,0,31.22-25,40,40,0,1,1,16.23.27ZM224,152a24,24,0,1,0-24,24A24,24,0,0,0,224,152Z"></path>
+                    </svg>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-sky-500">visibility</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Ver detalle de Medico <!-- o 'Ver Personal' -->
+                  </h4>
+                </a>
+                <!-- Fin Ver Usuario -->
+
+                <!--Inicio Editar un Usuario-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <svg class="text-blue-600" fill="currentColor" height="32px"
+                      viewBox="0 0 256 256" width="32px"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M212,152a12,12,0,1,1-12-12A12,12,0,0,1,212,152Zm-4.55,39.29A48.08,48.08,0,0,1,160,232H136a48.05,48.05,0,0,1-48-48V143.49A64,64,0,0,1,32,80V40A16,16,0,0,1,48,24H64a8,8,0,0,1,0,16H48V80a48,48,0,0,0,48.64,48c26.11-.34,47.36-22.25,47.36-48.83V40H128a8,8,0,0,1,0-16h16a16,16,0,0,1,16,16V79.17c0,32.84-24.53,60.29-56,64.31V184a32,32,0,0,0,32,32h24a32.06,32.06,0,0,0,31.22-25,40,40,0,1,1,16.23.27ZM224,152a24,24,0,1,0-24,24A24,24,0,0,0,224,152Z"></path>
+                    </svg>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-orange-500">edit</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Editar Médico
+                  </h4>
+                </a>
+                <!--Fin Editar un Usuario-->
+
+                <!--Inicio Modificar Credenciales-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <svg class="text-blue-600" fill="currentColor" height="32px"
+                      viewBox="0 0 256 256" width="32px"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M212,152a12,12,0,1,1-12-12A12,12,0,0,1,212,152Zm-4.55,39.29A48.08,48.08,0,0,1,160,232H136a48.05,48.05,0,0,1-48-48V143.49A64,64,0,0,1,32,80V40A16,16,0,0,1,48,24H64a8,8,0,0,1,0,16H48V80a48,48,0,0,0,48.64,48c26.11-.34,47.36-22.25,47.36-48.83V40H128a8,8,0,0,1,0-16h16a16,16,0,0,1,16,16V79.17c0,32.84-24.53,60.29-56,64.31V184a32,32,0,0,0,32,32h24a32.06,32.06,0,0,0,31.22-25,40,40,0,1,1,16.23.27ZM224,152a24,24,0,1,0-24,24A24,24,0,0,0,224,152Z"></path>
+                    </svg>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-yellow-500">lock_open</span>
                   </div>
                   <h4
                     class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
                     Modificar Credenciales
                   </h4>
                 </a>
+                <!--Fin Modificar Credenciales-->
+
+                <!--Inicio Eliminar Usuarios-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-red-500 transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-red-500 p-4 bg-red-100 rounded-full shadow-sm">
+                    <svg class="text-red-500" fill="currentColor" height="32px"
+                      viewBox="0 0 256 256" width="32px"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M212,152a12,12,0,1,1-12-12A12,12,0,0,1,212,152Zm-4.55,39.29A48.08,48.08,0,0,1,160,232H136a48.05,48.05,0,0,1-48-48V143.49A64,64,0,0,1,32,80V40A16,16,0,0,1,48,24H64a8,8,0,0,1,0,16H48V80a48,48,0,0,0,48.64,48c26.11-.34,47.36-22.25,47.36-48.83V40H128a8,8,0,0,1,0-16h16a16,16,0,0,1,16,16V79.17c0,32.84-24.53,60.29-56,64.31V184a32,32,0,0,0,32,32h24a32.06,32.06,0,0,0,31.22-25,40,40,0,1,1,16.23.27ZM224,152a24,24,0,1,0-24,24A24,24,0,0,0,224,152Z"></path>
+                    </svg>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-red-600">delete</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-red-500 transition-colors">
+                    Eliminar Médico
+                  </h4>
+                </a>
+                <!--Fin Eliminar Usuarios-->
+
               </div>
             </section>
+            <!-- Fin de la sección de Iconos de Gestión de Médicos-->
+
+            <!-- Sección de Iconos de Gestión de Secretariass -->
+            <section class="mb-12">
+              <h3
+                class="text-gray-700 text-2xl font-semibold leading-tight px-1 pb-4 mb-6">
+                Iconos de Gestión de Secretarias
+              </h3>
+              <div
+                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8">
+
+                <!--Inicio Usuarios-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <!-- Icono Base NUEVO (SVG) -->
+                    <!-- ICONO BASE .ICO -->
+                    <img src="ico-secre.ico"
+                      alt="Icono Base Personalizado"
+                      class="w-9 h-9 object-contain" />
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Secretarias
+                  </h4>
+                </a>
+                <!--Fin Usuarios-->
+
+                <!--Inicio Agregar nuevo usuario-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <!-- Icono Base NUEVO (SVG) -->
+                    <img src="ico-secre.ico"
+                      alt="Icono Base Personalizado"
+                      class="w-9 h-9 object-contain" />
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-green-500">add_circle</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Agregar Secretaria
+                  </h4>
+                </a>
+                <!--Fin Agregar nuevo usuario-->
+
+                <!-- Inicio Listar (con acción) -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <!-- Icono Base NUEVO (SVG) -->
+                    <img src="ico-secre.ico"
+                      alt="Icono Base Personalizado"
+                      class="w-9 h-9 object-contain" />
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-teal-500">list</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Ver Listado <!-- o un texto más específico -->
+                  </h4>
+                </a>
+                <!-- Fin Listar (con acción) -->
+
+                <!-- Inicio Buscar Usuario -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <!-- Icono Base NUEVO (SVG) -->
+                    <img src="ico-secre.ico"
+                      alt="Icono Base Personalizado"
+                      class="w-9 h-9 object-contain" />
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-purple-500">search</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Buscar Secretaria <!-- o 'Buscar Personal' -->
+                  </h4>
+                </a>
+                <!-- Fin Buscar Usuario -->
+
+                <!-- Inicio Ver Usuario -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <img src="ico-secre.ico"
+                      alt="Icono Base Personalizado"
+                      class="w-9 h-9 object-contain" />
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-sky-500">visibility</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Ver detalle de Secretaria <!-- o 'Ver Personal' -->
+                  </h4>
+                </a>
+                <!-- Fin Ver Usuario -->
+
+                <!--Inicio Editar un Usuario-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <img src="ico-secre.ico"
+                      alt="Icono Base Personalizado"
+                      class="w-9 h-9 object-contain" />
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-orange-500">edit</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Editar Secretaria
+                  </h4>
+                </a>
+                <!--Fin Editar un Usuario-->
+
+                <!--Inicio Modificar Credenciales-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <img src="ico-secre.ico"
+                      alt="Icono Base Personalizado"
+                      class="w-9 h-9 object-contain" />
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-yellow-500">lock_open</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Modificar Credenciales
+                  </h4>
+                </a>
+                <!--Fin Modificar Credenciales-->
+
+                <!--Inicio Eliminar Usuarios-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-red-500 transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-red-500 p-4 bg-red-100 rounded-full shadow-sm">
+                    <img src="ico-secre.ico"
+                      alt="Icono Base Personalizado"
+                      class="w-9 h-9 object-contain" />
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-red-600">delete</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-red-500 transition-colors">
+                    Eliminar Secretaria
+                  </h4>
+                </a>
+                <!--Fin Eliminar Usuarios-->
+
+              </div>
+            </section>
+            <!-- Fin de la sección de Iconos de Gestión de Médicos-->
+
+            <!-- Sección de Iconos de Gestión de Usuarios-->
+            <section class="mb-12">
+              <h3
+                class="text-gray-700 text-2xl font-semibold leading-tight px-1 pb-4 mb-6">
+                Iconos de Gestión de Pacientes
+              </h3>
+              <div
+                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8">
+
+                <!--Inicio Usuarios-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">assist_walker</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Pacientes
+                  </h4>
+                </a>
+                <!--Fin Usuarios-->
+
+                <!--Inicio Agregar nuevo usuario-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">assist_walker</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-green-500">add_circle</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Agregar Paciente
+                  </h4>
+                </a>
+                <!--Fin Agregar nuevo usuario-->
+
+                <!-- Inicio Listar (con acción) -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">assist_walker</span>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-teal-500">list</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Ver Listado <!-- o un texto más específico -->
+                  </h4>
+                </a>
+                <!-- Fin Listar (con acción) -->
+
+                <!-- Inicio Buscar Usuario -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">assist_walker</span>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-purple-500">search</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Buscar Paciente <!-- o 'Buscar Personal' -->
+                  </h4>
+                </a>
+                <!-- Fin Buscar Usuario -->
+
+                <!-- Inicio Ver Usuario -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">assist_walker</span>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-sky-500">visibility</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Ver detalle de Paciente <!-- o 'Ver Personal' -->
+                  </h4>
+                </a>
+                <!-- Fin Ver Usuario -->
+
+                <!--Inicio Editar un Usuario-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">assist_walker</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-orange-500">edit</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Editar Paciente
+                  </h4>
+                </a>
+                <!--Fin Editar un Usuario-->
+
+                <!--Inicio Modificar Credenciales-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">assist_walker</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-yellow-500">lock_open</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Modificar Credenciales
+                  </h4>
+                </a>
+                <!--Fin Modificar Credenciales-->
+
+                <!--Inicio Eliminar Usuarios-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-red-500 transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-red-500 p-4 bg-red-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">assist_walker</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-red-600">delete</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-red-500 transition-colors">
+                    Eliminar Paciente
+                  </h4>
+                </a>
+                <!--Fin Eliminar Usuarios-->
+
+              </div>
+            </section>
+            <!-- Fin de la sección de Iconos de Gestión de Usuarios-->
+
+            <!-- Sección de Iconos de Gestión de Usuarios-->
+            <section class="mb-12">
+              <h3
+                class="text-gray-700 text-2xl font-semibold leading-tight px-1 pb-4 mb-6">
+                Iconos de Gestión de Servicios
+              </h3>
+              <div
+                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8">
+
+                <!--Inicio Usuarios-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">medical_services</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Servicios
+                  </h4>
+                </a>
+                <!--Fin Usuarios-->
+
+                <!--Inicio Agregar nuevo usuario-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">medical_services</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-green-500">add_circle</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Agregar Servicio
+                  </h4>
+                </a>
+                <!--Fin Agregar nuevo usuario-->
+
+                <!-- Inicio Listar (con acción) -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">medical_services</span>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-teal-500">list</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Ver Listado <!-- o un texto más específico -->
+                  </h4>
+                </a>
+                <!-- Fin Listar (con acción) -->
+
+                <!-- Inicio Buscar Usuario -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">medical_services</span>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-purple-500">search</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Buscar Servicio <!-- o 'Buscar Personal' -->
+                  </h4>
+                </a>
+                <!-- Fin Buscar Usuario -->
+
+                <!-- Inicio Ver Usuario -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">medical_services</span>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-sky-500">visibility</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Ver detalle de Servicio <!-- o 'Ver Personal' -->
+                  </h4>
+                </a>
+                <!-- Fin Ver Usuario -->
+
+                <!--Inicio Editar un Usuario-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">medical_services</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-orange-500">edit</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Editar Servicio
+                  </h4>
+                </a>
+                <!--Fin Editar un Usuario-->
+
+                <!--Inicio Modificar Credenciales-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">medical_services</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-yellow-500">lock_open</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Modificar Credenciales
+                  </h4>
+                </a>
+                <!--Fin Modificar Credenciales-->
+
+                <!--Inicio Eliminar Usuarios-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-red-500 transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-red-500 p-4 bg-red-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">medical_services</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-red-600">delete</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-red-500 transition-colors">
+                    Eliminar Servicio
+                  </h4>
+                </a>
+                <!--Fin Eliminar Usuarios-->
+
+              </div>
+            </section>
+            <!-- Fin de la sección de Iconos de Gestión de Usuarios-->
+
+            <!-- Sección de Iconos de Gestión de Usuarios-->
+            <section class="mb-12">
+              <h3
+                class="text-gray-700 text-2xl font-semibold leading-tight px-1 pb-4 mb-6">
+                Iconos de Gestión de Perfil de Administrador
+              </h3>
+              <div
+                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8">
+
+                <!--Inicio Usuarios-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">manage_accounts</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Mi Pertil (Administrador)
+                  </h4>
+                </a>
+                <!--Fin Usuarios-->
+
+                <!--Inicio Agregar nuevo usuario-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">manage_accounts</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-green-500">add_circle</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Agregar Administrador
+                  </h4>
+                </a>
+                <!--Fin Agregar nuevo usuario-->
+
+                <!-- Inicio Listar (con acción) -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">manage_accounts</span>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-teal-500">list</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Ver Listado <!-- o un texto más específico -->
+                  </h4>
+                </a>
+                <!-- Fin Listar (con acción) -->
+
+                <!-- Inicio Buscar Usuario -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">manage_accounts</span>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-purple-500">search</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Buscar Administrador <!-- o 'Buscar Personal' -->
+                  </h4>
+                </a>
+                <!-- Fin Buscar Usuario -->
+
+                <!-- Inicio Ver Usuario -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">manage_accounts</span>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-sky-500">visibility</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Ver detalle de Administrador <!-- o 'Ver Personal' -->
+                  </h4>
+                </a>
+                <!-- Fin Ver Usuario -->
+
+                <!--Inicio Editar un Usuario-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">manage_accounts</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-orange-500">edit</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Editar Perfil (Administrador)
+                  </h4>
+                </a>
+                <!--Fin Editar un Usuario-->
+
+                <!--Inicio Modificar Credenciales-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">manage_accounts</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-yellow-500">lock_open</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Modificar Credenciales
+                  </h4>
+                </a>
+                <!--Fin Modificar Credenciales-->
+
+                <!--Inicio Eliminar Usuarios-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-red-500 transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-red-500 p-4 bg-red-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">manage_accounts</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-red-600">delete</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-red-500 transition-colors">
+                    Eliminar Administrador
+                  </h4>
+                </a>
+                <!--Fin Eliminar Usuarios-->
+
+              </div>
+            </section>
+            <!-- Fin de la sección de Iconos de Gestión de Usuarios-->
+
+            <!-- Sección de Iconos de Gestión de Usuarios-->
+            <section class="mb-12">
+              <h3
+                class="text-gray-700 text-2xl font-semibold leading-tight px-1 pb-4 mb-6">
+                Iconos de Gestión de Citas por atender (Doctor)
+              </h3>
+              <div
+                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8">
+
+                <!--Inicio Usuarios-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">calendar_today</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Mis citas (Doctor)
+                  </h4>
+                </a>
+                <!--Fin Usuarios-->
+
+                <!--Inicio Agregar nuevo usuario-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">calendar_today</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-green-500">add_circle</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Añadir resultado de Cita
+                  </h4>
+                </a>
+                <!--Fin Agregar nuevo usuario-->
+
+                <!-- Inicio Listar (con acción) -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">calendar_today</span>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-teal-500">list</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Ver Listado <!-- o un texto más específico -->
+                  </h4>
+                </a>
+                <!-- Fin Listar (con acción) -->
+
+                <!-- Inicio Buscar Usuario -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">calendar_today</span>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-purple-500">search</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Buscar Cita <!-- o 'Buscar Personal' -->
+                  </h4>
+                </a>
+                <!-- Fin Buscar Usuario -->
+
+                <!-- Inicio Ver Usuario -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">calendar_today</span>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-sky-500">visibility</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Ver detalle de Cita <!-- o 'Ver Personal' -->
+                  </h4>
+                </a>
+                <!-- Fin Ver Usuario -->
+
+                <!--Inicio Editar un Usuario-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">calendar_today</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-orange-500">edit</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Editar Cita (Doctor)
+                  </h4>
+                </a>
+                <!--Fin Editar un Usuario-->
+
+                <!--Inicio Modificar Credenciales-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">calendar_today</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-yellow-500">lock_open</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Modificar Cita
+                  </h4>
+                </a>
+                <!--Fin Modificar Credenciales-->
+
+                <!--Inicio Eliminar Usuarios-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-red-500 transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-red-500 p-4 bg-red-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">calendar_today</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-red-600">delete</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-red-500 transition-colors">
+                    Eliminar Cita
+                  </h4>
+                </a>
+                <!--Fin Eliminar Usuarios-->
+
+              </div>
+            </section>
+            <!-- Fin de la sección de Iconos de Gestión de Usuarios-->
+
+            <!-- Sección de Iconos de Gestión de Usuarios-->
+            <section class="mb-12">
+              <h3
+                class="text-gray-700 text-2xl font-semibold leading-tight px-1 pb-4 mb-6">
+                Iconos de Gestión de Citas (Paciente)
+              </h3>
+              <div
+                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8">
+
+                <!--Inicio Usuarios-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">calendar_today</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Mis citas (Paciente)
+                  </h4>
+                </a>
+                <!--Fin Usuarios-->
+
+                <!--Inicio Agregar nuevo usuario-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">calendar_today</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-green-500">add_circle</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Agregar Cita
+                  </h4>
+                </a>
+                <!--Fin Agregar nuevo usuario-->
+
+                <!-- Inicio Listar (con acción) -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">calendar_today</span>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-teal-500">list</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Ver Listado <!-- o un texto más específico -->
+                  </h4>
+                </a>
+                <!-- Fin Listar (con acción) -->
+
+                <!-- Inicio Buscar Usuario -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">calendar_today</span>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-purple-500">search</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Buscar Cita <!-- o 'Buscar Personal' -->
+                  </h4>
+                </a>
+                <!-- Fin Buscar Usuario -->
+
+                <!-- Inicio Ver Usuario -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">calendar_today</span>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-sky-500">visibility</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Ver detalle de Cita <!-- o 'Ver Personal' -->
+                  </h4>
+                </a>
+                <!-- Fin Ver Usuario -->
+
+                <!--Inicio Editar un Usuario-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">calendar_today</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-orange-500">edit</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Editar Cita (Paciente)
+                  </h4>
+                </a>
+                <!--Fin Editar un Usuario-->
+
+                <!--Inicio Modificar Credenciales-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">calendar_today</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-yellow-500">lock_open</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Modificar Cita
+                  </h4>
+                </a>
+                <!--Fin Modificar Credenciales-->
+
+                <!--Inicio Eliminar Usuarios-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-red-500 transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-red-500 p-4 bg-red-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">calendar_today</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-red-600">delete</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-red-500 transition-colors">
+                    Eliminar Cita
+                  </h4>
+                </a>
+                <!--Fin Eliminar Usuarios-->
+
+              </div>
+            </section>
+            <!-- Fin de la sección de Iconos de Gestión de Usuarios-->
+
+
+            <!-- Sección de Iconos de Gestión de Usuarios-->
+            <section class="mb-12">
+              <h3
+                class="text-gray-700 text-2xl font-semibold leading-tight px-1 pb-4 mb-6">
+                Iconos de Gestión de Atenciones de Citas (Doctor)
+              </h3>
+              <div
+                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8">
+
+                <!--Inicio Usuarios-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">queue_play_next</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Atender citas (Doctor)
+                  </h4>
+                </a>
+                <!--Fin Usuarios-->
+
+                <!--Inicio Agregar nuevo usuario-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">queue_play_next</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-green-500">add_circle</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Agregar atención de Cita
+                  </h4>
+                </a>
+                <!--Fin Agregar nuevo usuario-->
+
+                <!-- Inicio Listar (con acción) -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">queue_play_next</span>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-teal-500">list</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Ver Listado <!-- o un texto más específico -->
+                  </h4>
+                </a>
+                <!-- Fin Listar (con acción) -->
+
+                <!-- Inicio Buscar Usuario -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">queue_play_next</span>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-purple-500">search</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Buscar cita a atender <!-- o 'Buscar Personal' -->
+                  </h4>
+                </a>
+                <!-- Fin Buscar Usuario -->
+
+                <!-- Inicio Ver Usuario -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">queue_play_next</span>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-sky-500">visibility</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Ver detalle de cita a atender <!-- o 'Ver Personal' -->
+                  </h4>
+                </a>
+                <!-- Fin Ver Usuario -->
+
+                <!--Inicio Editar un Usuario-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">queue_play_next</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-orange-500">edit</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Editar cita por atender (Doctor)
+                  </h4>
+                </a>
+                <!--Fin Editar un Usuario-->
+
+                <!--Inicio Modificar Credenciales-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">queue_play_next</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-yellow-500">lock_open</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Modificar cita por atender
+                  </h4>
+                </a>
+                <!--Fin Modificar Credenciales-->
+
+                <!--Inicio Eliminar Usuarios-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-red-500 transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-red-500 p-4 bg-red-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">queue_play_next</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-red-600">delete</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-red-500 transition-colors">
+                    Eliminar cita por atender
+                  </h4>
+                </a>
+                <!--Fin Eliminar Usuarios-->
+
+              </div>
+            </section>
+            <!-- Fin de la sección de Iconos de Gestión de Usuarios-->
+
+            <!-- Sección de Iconos de Gestión de Usuarios-->
+            <section class="mb-12">
+              <h3
+                class="text-gray-700 text-2xl font-semibold leading-tight px-1 pb-4 mb-6">
+                Iconos de Gestión de Usuario (Doctor)
+              </h3>
+              <div
+                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8">
+
+                <!--Inicio Usuarios-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">person</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Perfil (Doctor)
+                  </h4>
+                </a>
+                <!--Fin Usuarios-->
+
+                <!--Inicio Agregar nuevo usuario-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">person</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-green-500">add_circle</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Agregar usuario
+                  </h4>
+                </a>
+                <!--Fin Agregar nuevo usuario-->
+
+                <!-- Inicio Listar (con acción) -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">person</span>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-teal-500">list</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Ver Listado <!-- o un texto más específico -->
+                  </h4>
+                </a>
+                <!-- Fin Listar (con acción) -->
+
+                <!-- Inicio Buscar Usuario -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">person</span>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-purple-500">search</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Buscar usuario <!-- o 'Buscar Personal' -->
+                  </h4>
+                </a>
+                <!-- Fin Buscar Usuario -->
+
+                <!-- Inicio Ver Usuario -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">person</span>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-sky-500">visibility</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Ver detalle de Perfil <!-- o 'Ver Personal' -->
+                  </h4>
+                </a>
+                <!-- Fin Ver Usuario -->
+
+                <!--Inicio Editar un Usuario-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">person</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-orange-500">edit</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Editar Perfil (Doctor)
+                  </h4>
+                </a>
+                <!--Fin Editar un Usuario-->
+
+                <!--Inicio Modificar Credenciales-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">person</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-yellow-500">lock_open</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Modificar Credenciales
+                  </h4>
+                </a>
+                <!--Fin Modificar Credenciales-->
+
+                <!--Inicio Eliminar Usuarios-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-red-500 transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-red-500 p-4 bg-red-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">person</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-red-600">delete</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-red-500 transition-colors">
+                    Eliminar usuario
+                  </h4>
+                </a>
+                <!--Fin Eliminar Usuarios-->
+
+              </div>
+            </section>
+            <!-- Fin de la sección de Iconos de Gestión de Usuarios-->
+
+
+            <!-- Sección de Iconos de Gestión de Usuarios-->
+            <section class="mb-12">
+              <h3
+                class="text-gray-700 text-2xl font-semibold leading-tight px-1 pb-4 mb-6">
+                Iconos de Gestión de Usuario (Secretaria)
+              </h3>
+              <div
+                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8">
+
+                <!--Inicio Usuarios-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">person</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Perfil (Secretaria)
+                  </h4>
+                </a>
+                <!--Fin Usuarios-->
+
+                <!--Inicio Agregar nuevo usuario-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">person</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-green-500">add_circle</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Agregar usuario
+                  </h4>
+                </a>
+                <!--Fin Agregar nuevo usuario-->
+
+                <!-- Inicio Listar (con acción) -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">person</span>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-teal-500">list</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Ver Listado <!-- o un texto más específico -->
+                  </h4>
+                </a>
+                <!-- Fin Listar (con acción) -->
+
+                <!-- Inicio Buscar Usuario -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">person</span>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-purple-500">search</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Buscar usuario <!-- o 'Buscar Personal' -->
+                  </h4>
+                </a>
+                <!-- Fin Buscar Usuario -->
+
+                <!-- Inicio Ver Usuario -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">person</span>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-sky-500">visibility</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Ver detalle de Perfil <!-- o 'Ver Personal' -->
+                  </h4>
+                </a>
+                <!-- Fin Ver Usuario -->
+
+                <!--Inicio Editar un Usuario-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">person</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-orange-500">edit</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Editar Perfil (Secretaria)
+                  </h4>
+                </a>
+                <!--Fin Editar un Usuario-->
+
+                <!--Inicio Modificar Credenciales-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">person</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-yellow-500">lock_open</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Modificar Credenciales
+                  </h4>
+                </a>
+                <!--Fin Modificar Credenciales-->
+
+                <!--Inicio Eliminar Usuarios-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-red-500 transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-red-500 p-4 bg-red-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">person</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-red-600">delete</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-red-500 transition-colors">
+                    Eliminar usuario
+                  </h4>
+                </a>
+                <!--Fin Eliminar Usuarios-->
+
+              </div>
+            </section>
+            <!-- Fin de la sección de Iconos de Gestión de Usuarios-->
+
+            <!-- Sección de Iconos de Gestión de Usuarios-->
+            <section class="mb-12">
+              <h3
+                class="text-gray-700 text-2xl font-semibold leading-tight px-1 pb-4 mb-6">
+                Iconos de Gestión de Usuario (Pacientes)
+              </h3>
+              <div
+                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8">
+
+                <!--Inicio Usuarios-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">person</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Perfil (Paciente)
+                  </h4>
+                </a>
+                <!--Fin Usuarios-->
+
+                <!--Inicio Agregar nuevo usuario-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">person</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-green-500">add_circle</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Agregar usuario
+                  </h4>
+                </a>
+                <!--Fin Agregar nuevo usuario-->
+
+                <!-- Inicio Listar (con acción) -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">person</span>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-teal-500">list</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Ver Listado <!-- o un texto más específico -->
+                  </h4>
+                </a>
+                <!-- Fin Listar (con acción) -->
+
+                <!-- Inicio Buscar Usuario -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">person</span>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-purple-500">search</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Buscar usuario <!-- o 'Buscar Personal' -->
+                  </h4>
+                </a>
+                <!-- Fin Buscar Usuario -->
+
+                <!-- Inicio Ver Usuario -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">person</span>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-sky-500">visibility</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Ver detalle de Perfil <!-- o 'Ver Personal' -->
+                  </h4>
+                </a>
+                <!-- Fin Ver Usuario -->
+
+                <!--Inicio Editar un Usuario-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">person</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-orange-500">edit</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Editar Perfil (Paciente)
+                  </h4>
+                </a>
+                <!--Fin Editar un Usuario-->
+
+                <!--Inicio Modificar Credenciales-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">person</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-yellow-500">lock_open</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Modificar Credenciales
+                  </h4>
+                </a>
+                <!--Fin Modificar Credenciales-->
+
+                <!--Inicio Eliminar Usuarios-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-red-500 transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-red-500 p-4 bg-red-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">person</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-red-600">delete</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-red-500 transition-colors">
+                    Eliminar usuario
+                  </h4>
+                </a>
+                <!--Fin Eliminar Usuarios-->
+
+              </div>
+            </section>
+            <!-- Fin de la sección de Iconos de Gestión de Usuarios-->
+
+
+
+            <!-- Sección de Iconos de Gestión de Usuarios-->
+            <section class="mb-12">
+              <h3
+                class="text-gray-700 text-2xl font-semibold leading-tight px-1 pb-4 mb-6">
+                Citas Pendientes por validar (Secretaria)
+              </h3>
+              <div
+                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8">
+
+                <!--Inicio Usuarios-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">pending_actions</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Citas pendientes de validar
+                  </h4>
+                </a>
+                <!--Fin Usuarios-->
+
+                <!--Inicio Agregar nuevo usuario-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">pending_actions</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-green-500">add_circle</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Agregar validación de Cita
+                  </h4>
+                </a>
+                <!--Fin Agregar nuevo usuario-->
+
+                <!-- Inicio Listar (con acción) -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">pending_actions</span>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-teal-500">list</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Ver Listado <!-- o un texto más específico -->
+                  </h4>
+                </a>
+                <!-- Fin Listar (con acción) -->
+
+                <!-- Inicio Buscar Usuario -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">pending_actions</span>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-purple-500">search</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Buscar cita pendiente <!-- o 'Buscar Personal' -->
+                  </h4>
+                </a>
+                <!-- Fin Buscar Usuario -->
+
+                <!-- Inicio Ver Usuario -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">pending_actions</span>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-sky-500">visibility</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Ver detalle de Cita Pendiente <!-- o 'Ver Personal' -->
+                  </h4>
+                </a>
+                <!-- Fin Ver Usuario -->
+
+                <!--Inicio Editar un Usuario-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">pending_actions</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-orange-500">edit</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Editar cita pendiente
+                  </h4>
+                </a>
+                <!--Fin Editar un Usuario-->
+
+                <!--Inicio Modificar Credenciales-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">pending_actions</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-yellow-500">lock_open</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Modificar Credenciales
+                  </h4>
+                </a>
+                <!--Fin Modificar Credenciales-->
+
+                <!--Inicio Eliminar Usuarios-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-red-500 transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-red-500 p-4 bg-red-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">pending_actions</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-red-600">delete</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-red-500 transition-colors">
+                    Eliminar cita pendiente
+                  </h4>
+                </a>
+                <!--Fin Eliminar Usuarios-->
+
+              </div>
+            </section>
+            <!-- Fin de la sección de Iconos de Gestión de Usuarios-->
+
+            <!-- Sección de Iconos de Gestión de Usuarios-->
+            <section class="mb-12">
+              <h3
+                class="text-gray-700 text-2xl font-semibold leading-tight px-1 pb-4 mb-6">
+                Gestion de reportes de citas (Secretaria)
+              </h3>
+              <div
+                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8">
+
+                <!--Inicio Usuarios-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">content_paste</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Reportes (Secretaria)
+                  </h4>
+                </a>
+                <!--Fin Usuarios-->
+
+                <!--Inicio Agregar nuevo usuario-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">content_paste</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-green-500">add_circle</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Agregar reporte de Cita
+                  </h4>
+                </a>
+                <!--Fin Agregar nuevo usuario-->
+
+                <!-- Inicio Listar (con acción) -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">content_paste</span>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-teal-500">list</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Ver Listado <!-- o un texto más específico -->
+                  </h4>
+                </a>
+                <!-- Fin Listar (con acción) -->
+
+                <!-- Inicio Buscar Usuario -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">content_paste</span>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-purple-500">search</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Buscar reporte de citas <!-- o 'Buscar Personal' -->
+                  </h4>
+                </a>
+                <!-- Fin Buscar Usuario -->
+
+                <!-- Inicio Ver Usuario -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">content_paste</span>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-sky-500">visibility</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Ver detalle de Reporte de Citas <!-- o 'Ver Personal' -->
+                  </h4>
+                </a>
+                <!-- Fin Ver Usuario -->
+
+                <!--Inicio Editar un Usuario-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">content_paste</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-orange-500">edit</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Editar reporte de citas
+                  </h4>
+                </a>
+                <!--Fin Editar un Usuario-->
+
+                <!--Inicio Modificar Credenciales-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">content_paste</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-yellow-500">lock_open</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Modificar Credenciales
+                  </h4>
+                </a>
+                <!--Fin Modificar Credenciales-->
+
+                <!--Inicio Eliminar Usuarios-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-red-500 transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-red-500 p-4 bg-red-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">content_paste</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-red-600">delete</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-red-500 transition-colors">
+                    Eliminar reporte de citas
+                  </h4>
+                </a>
+                <!--Fin Eliminar Usuarios-->
+
+              </div>
+            </section>
+            <!-- Fin de la sección de Iconos de Gestión de Usuarios-->
+
+            <!-- Sección de Iconos de Gestión de Usuarios-->
+            <section class="mb-12">
+              <h3
+                class="text-gray-700 text-2xl font-semibold leading-tight px-1 pb-4 mb-6">
+                Gestion de reservas de citas (Pacientes)
+              </h3>
+              <div
+                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8">
+
+                <!--Inicio Usuarios-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">calendar_month</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Mis reservas de citas
+                  </h4>
+                </a>
+                <!--Fin Usuarios-->
+
+                <!--Inicio Agregar nuevo usuario-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">calendar_month</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-green-500">add_circle</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Agregar reserva de cita
+                  </h4>
+                </a>
+                <!--Fin Agregar nuevo usuario-->
+
+                <!-- Inicio Listar (con acción) -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">calendar_month</span>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-teal-500">list</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Ver Listado <!-- o un texto más específico -->
+                  </h4>
+                </a>
+                <!-- Fin Listar (con acción) -->
+
+                <!-- Inicio Buscar Usuario -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">calendar_month</span>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-purple-500">search</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Buscar reseva de cita <!-- o 'Buscar Personal' -->
+                  </h4>
+                </a>
+                <!-- Fin Buscar Usuario -->
+
+                <!-- Inicio Ver Usuario -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">calendar_month</span>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-sky-500">visibility</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Ver detalle de reserva de Cita <!-- o 'Ver Personal' -->
+                  </h4>
+                </a>
+                <!-- Fin Ver Usuario -->
+
+                <!--Inicio Editar un Usuario-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">calendar_month</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-orange-500">edit</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Editar reserva de citas
+                  </h4>
+                </a>
+                <!--Fin Editar un Usuario-->
+
+                <!--Inicio Modificar Credenciales-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">calendar_month</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-yellow-500">lock_open</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Modificar Credenciales
+                  </h4>
+                </a>
+                <!--Fin Modificar Credenciales-->
+
+                <!--Inicio Eliminar Usuarios-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-red-500 transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-red-500 p-4 bg-red-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">calendar_month</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-red-600">delete</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-red-500 transition-colors">
+                    Eliminar reserva de cita
+                  </h4>
+                </a>
+                <!--Fin Eliminar Usuarios-->
+
+              </div>
+            </section>
+            <!-- Fin de la sección de Iconos de Gestión de Usuarios-->
+
+            <!-- Sección de Iconos de Gestión de Usuarios-->
+            <section class="mb-12">
+              <h3
+                class="text-gray-700 text-2xl font-semibold leading-tight px-1 pb-4 mb-6">
+                Gestion de Historial Médico (Pacientes)
+              </h3>
+              <div
+                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8">
+
+                <!--Inicio Usuarios-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">medical_information</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Mi historial médico
+                  </h4>
+                </a>
+                <!--Fin Usuarios-->
+
+                <!--Inicio Agregar nuevo usuario-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">medical_information</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-green-500">add_circle</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Agregar historial médico
+                  </h4>
+                </a>
+                <!--Fin Agregar nuevo usuario-->
+
+
+                <!--Inicio Agregar nuevo usuario-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">medical_information</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-green-500">download</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Descargar Historial Médico
+                  </h4>
+                </a>
+                <!--Fin Agregar nuevo usuario-->
+
+                <!-- Inicio Listar (con acción) -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">medical_information</span>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-teal-500">list</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Ver Listado <!-- o un texto más específico -->
+                  </h4>
+                </a>
+                <!-- Fin Listar (con acción) -->
+
+                <!-- Inicio Buscar Usuario -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">medical_information</span>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-purple-500">search</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Buscar historial médico <!-- o 'Buscar Personal' -->
+                  </h4>
+                </a>
+                <!-- Fin Buscar Usuario -->
+
+                <!-- Inicio Ver Usuario -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">medical_information</span>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-sky-500">visibility</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Ver detalle de historial médico <!-- o 'Ver Personal' -->
+                  </h4>
+                </a>
+                <!-- Fin Ver Usuario -->
+
+                <!--Inicio Editar un Usuario-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">medical_information</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-orange-500">edit</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Editar historial médico
+                  </h4>
+                </a>
+                <!--Fin Editar un Usuario-->
+
+                <!--Inicio Modificar Credenciales-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">medical_information</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-yellow-500">lock_open</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Modificar Credenciales
+                  </h4>
+                </a>
+                <!--Fin Modificar Credenciales-->
+
+                <!--Inicio Eliminar Usuarios-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-red-500 transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-red-500 p-4 bg-red-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">medical_information</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-red-600">delete</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-red-500 transition-colors">
+                    Eliminar Historial médico
+                  </h4>
+                </a>
+                <!--Fin Eliminar Usuarios-->
+
+              </div>
+            </section>
+            <!-- Fin de la sección de Iconos de Gestión de Usuarios-->
+           
+            <!-- Sección de Iconos de Gestión de Usuarios-->
+            <section class="mb-12">
+              <h3
+                class="text-gray-700 text-2xl font-semibold leading-tight px-1 pb-4 mb-6">
+                Gestion de Generación de reportes (Secretaria)
+              </h3>
+              <div
+                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8">
+
+                <!--Inicio Usuarios-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">picture_as_pdf</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Generar Reportes (Secretaria)
+                  </h4>
+                </a>
+                <!--Fin Usuarios-->
+
+                <!--Inicio Agregar nuevo usuario-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">picture_as_pdf</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-green-500">download</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Descargar Reporte
+                  </h4>
+                </a>
+                <!--Fin Agregar nuevo usuario-->
+
+
+                <!--Inicio Agregar nuevo usuario-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">picture_as_pdf</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-green-500">download</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Descargar Historial Médico
+                  </h4>
+                </a>
+                <!--Fin Agregar nuevo usuario-->
+
+                <!--Inicio Agregar nuevo usuario-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">picture_as_pdf</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-green-500">add_circle</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Agregar historial médico
+                  </h4>
+                </a>
+                <!--Fin Agregar nuevo usuario-->
+
+                <!-- Inicio Listar (con acción) -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">picture_as_pdf</span>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-teal-500">list</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Ver Listado <!-- o un texto más específico -->
+                  </h4>
+                </a>
+                <!-- Fin Listar (con acción) -->
+
+                <!-- Inicio Buscar Usuario -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">picture_as_pdf</span>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-purple-500">search</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Buscar historial médico <!-- o 'Buscar Personal' -->
+                  </h4>
+                </a>
+                <!-- Fin Buscar Usuario -->
+
+                <!-- Inicio Ver Usuario -->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">picture_as_pdf</span>
+                    <!-- o 'badge' -->
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-sky-500">visibility</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Ver detalle de historial médico <!-- o 'Ver Personal' -->
+                  </h4>
+                </a>
+                <!-- Fin Ver Usuario -->
+
+                <!--Inicio Editar un Usuario-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">picture_as_pdf</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-orange-500">edit</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Editar historial médico
+                  </h4>
+                </a>
+                <!--Fin Editar un Usuario-->
+
+                <!--Inicio Modificar Credenciales-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-[#1A75FF] transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-[#1A75FF] p-4 bg-blue-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">picture_as_pdf</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-yellow-500">lock_open</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-[#1A75FF] transition-colors">
+                    Modificar Credenciales
+                  </h4>
+                </a>
+                <!--Fin Modificar Credenciales-->
+
+                <!--Inicio Eliminar Usuarios-->
+                <a
+                  class="flex flex-col items-center justify-center gap-4 rounded-xl border border-gray-200 bg-white p-8 shadow-lg hover:shadow-xl hover:border-red-500 transition-all duration-300 group transform hover:-translate-y-1"
+                  href="#">
+                  <div
+                    class="relative text-red-500 p-4 bg-red-100 rounded-full shadow-sm">
+                    <span class="material-icons text-4xl">picture_as_pdf</span>
+                    <span
+                      class="material-icons absolute -top-2 -right-2 text-2xl bg-white rounded-full p-1 shadow-md text-red-600">delete</span>
+                  </div>
+                  <h4
+                    class="text-gray-800 text-lg font-medium leading-tight text-center group-hover:text-red-500 transition-colors">
+                    Eliminar Historial médico
+                  </h4>
+                </a>
+                <!--Fin Eliminar Usuarios-->
+
+              </div>
+            </section>
+            <!-- Fin de la sección de Iconos de Gestión de Usuarios-->
+           
+
           </div>
         </main>
         <footer class="bg-gray-800 text-white py-8 px-10 text-center">
